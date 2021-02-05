@@ -1,1 +1,1 @@
-this is a new REDAME file
+This is a new README file
