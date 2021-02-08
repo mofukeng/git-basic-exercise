@@ -1,0 +1,500 @@
+   43  git log
+   44  git add README.md
+   45  git status
+   46  git reset README.md
+   47  git status
+   48  git add README.md
+   49  clear
+   50  git commit -m "initial commit"
+   51  git config user.name "mofukeng"
+   52  git config user.email "lesedimokonemasitha@gmail.com"
+   53  clear
+   54  git commit -m "initial commit"
+   55  git log
+   56  q
+   57  clear
+   58  nano README.md
+   59  cat README.md
+   60  git stats
+   61  git status
+   62  git add README.md
+   63  git commit -m "second commit"
+   64  git status
+   65  nano README.md
+   66  git status
+   67  git add README.md
+   68  git commit -m "third commit"
+   69  clear
+   70  git log
+   71  git checkout a73f3ae22b7cd49ff5b7eb264e773f78e12030a1
+   72  cat README.md
+   73  git checkout master
+   74  cat README.md
+   75  clear
+   76  git branch
+   77  git branch "milkshake-flavours"
+   78  git branch
+   79  git switch "milkshake-flavours"
+   80  git branch
+   81  nano milkshakes.md
+   82  git status
+   83  git add milkshakes.md
+   84  git commit -m "added initial flavours"
+   85  git log
+   86  clear
+   87  git branch "history"
+   88  git checkout history
+   89  git log
+   90  cd ..
+   91  git log
+   92  cd basic-git-exercises
+   93  clear
+   94  git log
+   95  git rm -r history
+   96  git branch -d history
+   97  git branch
+   98  git switch master
+   99  git rm -r history
+  100  clear
+  101  git branch
+  102  git switch milkshake-flavours
+  103  history > history.txt
+  104  git add history.txt
+  105  git commit -m "added history"
+  106  git log
+  107  clear
+  108  nano README.md
+  109  git add README.md
+  110  git commit -m "random readme changes"
+  111  cat README.md
+  112  rm README.md
+  113  echo "booya" > README.md
+  114  git add README.md
+  115  git commit -m "rewrote readme"
+  116  gti checkout master
+  117  git checkout master
+  118  ls
+  119  git log
+  120  git checkout milkshake-flavours
+  121  ls
+  122  git log
+  123  clear
+  124  git checkout history
+  125  ls
+  126  git log
+  127  clear
+  128  git checkout master
+  129  git merge milkshake-flavours
+  130  ls
+  131  git log
+  132  clear
+  133  git checkout history
+  134  git log
+  135  git checkout milkshakes-flavours
+  136  git checkout milkshake-flavours
+  137  git log
+  138  clear
+  139  git checkout y
+  140  clear
+  141  git checkout master
+  142  git merge history
+  143  checkout master
+  144  git log
+  145  pwd
+  146  pwd
+  147  ls
+  148  git init
+  149  git add .
+  150  git status
+  151  git commit -m "first commit"
+  152  git add .
+  153  git remote add origin "https://github.com/mofukeng/git-basic-exercises.git"
+  154  git push -u origin master
+  155  git remote add githubcamp Logon failed, use ctrl+c to cancel basic credential prompt.
+  156  remote: No anonymous write access.
+  157  clear
+  158  git remote add githubcamp 
+  159  git config credential.helper wincred
+  160  git remote add githubcamp  https://github.com/mofukeng/git-basic-exercises.git
+  161  git remote
+  162  git push -u githubcamp master
+  163  git push -u githubcamp master
+  164  git push -u githubcamp
+  165  git push -u githubcamp master
+  166  git remote
+  167  git push -u githubcamp origin
+  168  git push -u githubcamp master
+  169  git add .
+  170  pwd
+  171  git remote -v
+  172  git push -f origin master
+  173  ls
+  174  git remore -v
+  175  remote -v
+  176  git remote -v
+  177  git add README.md
+  178  git add history.txt
+  179  git add milkshakes.md
+  180  got commit -m "work"
+  181  git commit -m "work"
+  182  git push origin master
+  183  git config username "mofukeng"
+  184  git config user.name "mofukeng"
+  185  git config user.email "lesedimokonemasitha@gmail.com"
+  186  git push orign master
+  187  git push -u githubcamp master
+  188  git cp ../history.txt
+  189  git pull githubcamp
+  190  git push githubcamp master
+  191  clear
+  192  git log
+  193  git checkout 79f4116
+  194  git log
+  195  git checkout README.md
+  196  git checkout master
+  197  cat README.md
+  198  git log
+  199  git status
+  200  ls -a
+  201  git init
+  202  la -a
+  203  ls -a
+  204  cd .git
+  205  git push githubcamp master
+  206  git add basic-git-exercises
+  207  git config unset core.bare
+  208  clear
+  209  gti push githubcamp master
+  210  push githubcamp master
+  211  git push -u githubcamp
+  212  gti status
+  213  git status
+  214  cd git-basic-exercise
+  215  pwd
+  216  mkdir git-basic-exercise
+  217  cd
+  218  cd ..
+  219  cd basic-git-exercises
+  220  clear
+  221  ls -lrh
+  222  pwd
+  223  ls
+  224  ls /data
+  225  mkdir Outer_directory
+  226  git init
+  227  pwd
+  228  mkdir "Outer-directory
+  229  "
+  230  mkdir -p Outer_directory
+  231  cd ../../
+  232  mkdir Outer_directory
+  233  cd Outer_directory
+  234  mkdir Inner_directory
+  235  cd Inner_directory
+  236  cd home
+  237  cd master
+  238  cd mokoni@mow
+  239  cd MINGW64
+  240  cd mokoni
+  241  cd ../../
+  242  pwd
+  243  cd /home/master
+  244  cd master
+  245  cd ../../../tmp
+  246  cd /
+  247  cd /outer_directory
+  248  ls ../../
+  249  ls ../
+  250  ls -l
+  251  man ls
+  252  man cd
+  253  cd /
+  254  rmdir Inner_directory
+  255  rmdir Outer_directory
+  256  ls
+  257  rmdir git-bash.exe*
+  258  rmdir README.md
+  259  cd Inner_directory
+  260  cd Outer_directory
+  261  rmdir Outer_directory
+  262  cd ../
+  263  rmdir Outer_directory
+  264  git status
+  265  git log
+  266  git add Inner_directory
+  267  mkdir Inner_directory
+  268  cd Inner_directory
+  269  ls
+  270  ls -a
+  271  rmdir Outer_directory
+  272  git log
+  273  git status
+  274  mkdir Outer_directory
+  275  ls -a
+  276  rmdir Outer_directory
+  277  ls -a
+  278  cd master
+  279  cd ../
+  280  rmdir Inner_directory
+  281  mkdir Inner_directory
+  282  mkdir Inner
+  283  cd Inner
+  284  mkdir Outer
+  285  cd Outer/
+  286  touch heaven.txt
+  287  ls
+  288  mkdir Temp
+  289  mv heaven.txt temp//
+  290  touch earth
+  291  earth > earth.txt
+  292  git earth > earth.txt
+  293  mv earth temp/
+  294  ls temp
+  295  touch rags
+  296  ls
+  297  mv rag temp/riches
+  298  clear
+  299  ls
+  300  Temp/Temp2
+  301  cd Temp
+  302  ls
+  303  cd Outer
+  304  cd ../
+  305  touch Temp2
+  306  mv Temp Temp2/
+  307  ls Temp/
+  308  ls Outer/
+  309  cd Inner
+  310  cd ../../
+  311  mv Temp2/Inner/
+  312  mv Temp2/Inner
+  313  cd Temp
+  314  cd Temp/
+  315  cd Inner
+  316  ls
+  317  cd Oter
+  318  cd Outer
+  319  ls
+  320  cd Temp
+  321  rm -i earth 
+  322  rm -i heaven
+  323  rm earth.txt
+  324  rm -i rags
+  325  cd ../
+  326  rm -i Temp
+  327  touch yes
+  328  cp yes no
+  329  ls
+  330  rmdir Temp2
+  331  rm Temp2
+  332  rmdir earth.txt
+  333  rm earth.txt
+  334  ls
+  335  rmdir no
+  336  rm no
+  337  rm yes/rags
+  338  rmdir yes
+  339  rm rags
+  340  rm yes
+  341  ls
+  342  rmdir Temp
+  343  ls
+  344  rmdir
+  345  rmdir Temp
+  346  ls -a
+  347  cd../
+  348  cd ../
+  349  rmdir Temp
+  350  rm Temp
+  351  rm Temp
+  352  clear
+  353  ls
+  354  rmdir Outer
+  355  rm -i Outer
+  356  rm -i TEmp
+  357  rmdir -i Outer
+  358  echo "call me lesedi"
+  359  call me lesedi
+  360  cat echo
+  361  ls
+  362  echo "its me" lesedi
+  363  echo "its me" > opening_lines.txt
+  364  ls
+  365  ls opening_lines.txt
+  366  opening_lines.txt
+  367  echo "what" >> opening_lines.txt
+  368  cat opening_lines
+  369  ls
+  370  ls -l
+  371  path
+  372  PATH
+  373  git path
+  374  cd ../
+  375  path
+  376  echo path
+  377  cd Inner
+  378  echo path
+  379  clear
+  380  pwd
+  381  cd ../../
+  382  cd master/
+  383  cd ../cd../
+  384  clear
+  385  mkdir Your_history.md
+  386  cd basic-git-execises
+  387  mkdir basic-git exercises
+  388  cd basic-git-exercises
+  389  git status
+  390  ls -a
+  391  rm README.md
+  392  rm history.txt
+  393  rm milkshakes.md
+  394  ls -a
+  395  git reset git
+  396  git log
+  397  clear
+  398  cd ../
+  399  cd ../
+  400  mkdir exercises-git
+  401  mkdir basic-exercises
+  402  cd basic-exercises
+  403  ls -a
+  404  git init
+  405  ls -a
+  406  git status
+  407  touch README.md
+  408  ls -a
+  409  git status
+  410  git log
+  411  git add README.md
+  412  git commit  -m "initial commit"
+  413  gti config user.email "lesedimokonemasitha@gmail.com"
+  414  git config user.email "lesedimokonemasitha@gmail.com"
+  415  git config user.name "mofukeng"
+  416  git commit -m "initial commit
+  417  git commit -m "initial commit"
+  418  "
+  419  git status
+  420  git log
+  421  git status
+  422  nano README.md
+  423  cat README.md
+  424  git status
+  425  git add README.md
+  426  git commit "second commit"
+  427  git log
+  428  git status
+  429  git log
+  430  ls l
+  431  git init
+  432  echo "this is a new REDAME file" > README.md
+  433  cat README.md
+  434  git add README.md
+  435  git commit -m "README file added"
+  436  git config user.enail "lesedimokonemasitha@gmail.com"
+  437  git config user.name "mofukeng"
+  438  git commit -m "README file added"
+  439  git config user.email "lesedimokonemasitha@gmail.com"
+  440  git commit -m "README file add"
+  441  git status
+  442  clear
+  443  git checkout -b "branch_to_create_merge_conflict"
+  444  git branch
+  445  echo "This is a new README file" > README.md
+  446  git add README.md
+  447  git commit -m "new_file"
+  448  vim README.md
+  449  mkdir -p basics-git-exercises
+  450  cd basics-git-exercises
+  451  ls -a
+  452  git init
+  453  ls -a
+  454  git status
+  455  touch README.md
+  456  ls -a
+  457  git status
+  458  git log
+  459  git add README.md
+  460  git status
+  461  git reset README.md
+  462  git status
+  463  git add README.md
+  464  git commit -m "initial commit"
+  465  git config user.email "lesedimokonemasitha@gmail.com"
+  466  git config user.name "mofukeng"
+  467  git commit -m "initial commit"
+  468  git log
+  469  clear
+  470  nano README.md
+  471  cat README.md
+  472  git status
+  473  git commit -m "second commit"
+  474  git add README.md
+  475  git commit -m "second commit"
+  476  nano README.md
+  477  git add README.md
+  478  git commit README.md
+  479  git init
+  480  mkdir markdown extensions
+  481  cd markdown 
+  482  my_history.md
+  483  cd exercises
+  484  cd milkshake-flavours
+  485  ls
+  486  ls -la
+  487  git status
+  488  ls -la
+  489  ls
+  490  ls /
+  491  ls /
+  492  cd/
+  493  cd /
+  494  ls la
+  495  ls -la
+  496  cd git-basic-exercises
+  497  git branch
+  498  checkout master
+  499  git branch
+  500  exit
+  501  ls -la
+  502  git log
+  503  git status
+  504  git init
+  505  ls -a
+  506  git status
+  507  touch README.md
+  508  ls -a
+  509  git status
+  510  git add README.md
+  511  git status
+  512  git log
+  513  git commit -m "initial commit"
+  514  git log
+  515  nano README.md
+  516  cat README.md
+  517  git status
+  518  git add README.md
+  519  git commit -m "second commit"
+  520  nano README.md
+  521  git status
+  522  git add README.md
+  523  git commit -m "third commit"
+  524  git log
+  525  git branch
+  526  git branch milkshake-flavours
+  527  git branch
+  528  checkout milkshake-flavours
+  529  git checkout milkshake-flavours
+  530  nano milkshakes.md
+  531  git add milkshakes.md
+  532  git commit -m "added initial flavours"
+  533  git log
+  534  git checkout master
+  535  git log
+  536  git branch
+  537  git branch history
+  538  git log
+  539  git branch
+  540  git checkout history
+  541  git log
+  542  history > history.txt
